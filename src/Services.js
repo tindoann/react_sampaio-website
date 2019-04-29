@@ -1,5 +1,5 @@
 import React, { Component } from 'react'; 
-import './Srevices.css'; 
+import './Services.css'; 
 import App from './App';
 
 class Services extends  Component {
@@ -35,12 +35,34 @@ class Services extends  Component {
                   <span>
                     <ion-icon name='help'></ion-icon>
                   </span>
+                  <h4>Question</h4>
+             1                  <p>I mustache you a question...</p>
               </div>
             </div>
         </div>
     ); 
   }
 }
+
+const iconObj = [
+    {
+        icon: '<ion-icon name="phone-portrait"></ion-icon>', 
+        title: 'Responsive', 
+        description: 'Looks great on any screen size!'
+    }, 
+    {
+        icon: '<ion-icon name="phone-portrait"></ion-icon>', 
+        title: 'Responsive', 
+        description: 'Looks great on any screen size!'
+
+    }, 
+    {
+
+    }
+
+
+
+]
 
 export default App; 
 

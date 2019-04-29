@@ -43,10 +43,16 @@ services h2 {
     color: #fff; 
 }
 
+.services > .row p ion-icon {
+  color: red; 
+}
+
 .services > .row p {
     font-size: 16px; 
     color: #fff; 
 }
+
+
 
 .services > .row span ion-icon {
   contain: none; 
